@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registra un utente</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Registrate</h1>
+
+<div class="container">
+
+    <div class="wrapper">
+
+    
+
+        <form id="mioForm" action="grazie.html" method="get">
+        
+            <input id="nome" type="text" name="nome" placeholder="Nome">
+            <div id="feedbackNome" class="feedback"></div> <br>
+
+            <input id="cognome" type="text" name="cognome" placeholder="Cognome"> <br>
+            <div id="feedbackCognome" class="feedback"></div> <br>
+
+            <input id="email" type="text" name="email" placeholder="Email"> <br>
+            <div id="feedbackEmail" class="feedback"></div> <br>
+
+            <input id="telefono" type="text" name="telefono" placeholder="Telefono"> <br>
+            <div id="feedbackTelefono" class="feedback"></div> <br>
+            
+            <select name="ruolo" id="ruolo">
+                <option value="" selected disabled>Seleziona ruolo</option>
+                <option value="Studente">Studente</option>
+                <option value="Docente">Docente</option>
+                <option value="Responsabile">Responsable</option>
+            </select>
+            <div id="feedbackRuolo" class="feedback"></div> <br>
+
+            <button id="btn" type="submit">Registra</button>
+        </form>
+    </div>
+
+</div>
+
+    
+    <div id="demo"></div>
+    <script src="./js/script01.js"></script>
+
+
+</body>
+</html>
+
